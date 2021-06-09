@@ -13,7 +13,8 @@
 	color: black;
 }
 
-.page-chapter a:hover {
+.page-chapter a:hover,
+.page-chapter .item.active a {
 	color: #4183c4;
 }
 
