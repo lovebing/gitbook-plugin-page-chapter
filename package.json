@@ -1,0 +1,19 @@
+{
+  "name": "gitbook-plugin-page-chapter",
+  "version": "1.0.2",
+  "description": "gitbook-plugin-page-chapter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovebing/gitbook-plugin-page-chapter.git"
+  },
+  "author": "lovebing",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/lovebing/gitbook-plugin-page-chapter/issues"
+  },
+  "homepage": "https://github.com/lovebing/gitbook-plugin-page-chapter#readme"
+}

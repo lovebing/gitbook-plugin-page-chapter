@@ -1,0 +1,32 @@
+.page-chapter {
+	background: #fafafa;
+	position: fixed;
+	right: 0;
+	padding: 8px;
+	height: 100%;
+	overflow-y: auto;
+	font-size: 12px;
+}
+
+.page-chapter .item-h2 {
+	padding-left: 4px;
+	font-weight: bold;
+	padding-bottom: 8px;
+}
+
+.page-chapter .item-h3 {
+	padding-left: 8px;
+}
+
+.page-chapter .item-h4 {
+	padding-left: 12px;
+}
+
+.page-chapter .item-h5 {
+	padding-left: 16px;
+}
+
+.page-chapter .item-h6 {
+	padding-left: 20px;
+	color: gray;
+}
