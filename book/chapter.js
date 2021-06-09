@@ -14,11 +14,14 @@ require(['gitbook', 'jQuery'], function (gitbook, $) {
 				right: width
 			});
 		}
+		chapter.html('');
 		var nodes = document.querySelector('.page-inner')
-		.querySelectorAll('h2[id], h3[id], h4[id], h5[id], h6[id]');
+		.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]');
 		$.each(nodes, function(k, v) {
-			var item = $('<div class="item-' + v.tagName.toLowerCase() + '" />');
-			item.html(v.innerText);
+			var item = $('<div class="item item-' + v.tagName.toLowerCase() + '" />');
+			var a = $('<a href="#' + v.id + '" />');
+			a.html(v.innerText);
+			item.append(a);
 			chapter.append(item);
 		});
   	});
